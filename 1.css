@@ -23,27 +23,38 @@ body{
 
 /*导航栏*/
 .header-top{
-	height: 32px;
-	line-height: 32px;
+	height: 56px;
+	line-height: 34px;
+	background: rgba(255,192,205,1);
 	
 }
-.header-top li{
-    	display: block;
-    	float: right;
-    	width: 50px;
-    	text-align: center;	
-       	font-size:18px;
-    }
-.header-top a{
-    	display:block;
-        font-size:9px;
-		font-family:Microsoft YaHei;
-		font-weight:100;
-		color:block;
-        text-align:center;
-    	
-    } 
-
+.login{
+    	float:right;
+        font-family:Microsoft YaHei;
+      	font-weight:400;
+      	color:rgba(191,191,191,1);
+      	line-height:32px;
+      	font-size:14px;
+      	margin-top:10px;
+      	margin-right: 10px;
+        width:200px;
+        height:32px;
+        border:1px solid rgba(0,164,255,1);
+        box-shadow:0px 2px 5px 0px rgba(0,164,255,1);
+}
+.login-1 {
+		margin-top: 10px;
+		float: right;
+    	width: 60px;
+    	height: 34px;
+    	margin-right: 5px;
+    	margin-left: 5px; 
+    	border:none;
+    	background: rgba(0,255,255,1);
+    	color: #FFFFFF;
+    	font-weight: bold;
+    	box-shadow:0px 2px 5px 0px rgba(0,255,255,1);
+}
 #logo{
 		float: left;
 		font-size:36px;
@@ -199,7 +210,8 @@ input::-webkit-input-placeholder {
     height: 200px;
     margin: 7.5px 7.5px 7.5px 7.5px;
     background:rgba(150,200,255,1);
-	box-shadow:0px 2px 5px 0px pink;}
+	box-shadow:0px 2px 5px 0px pink;
+}
 
 .one{
 		padding-top:25px;
