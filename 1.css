@@ -23,6 +23,8 @@ body{
 
 /*导航栏*/
 .header-top{
+	margin:0 auto;
+	width: 1518px;
 	height: 56px;
 	line-height: 34px;
 	background: rgba(255,192,205,1);
